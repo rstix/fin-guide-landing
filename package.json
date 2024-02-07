@@ -1,0 +1,22 @@
+{
+  "name": "fin-guide-landing",
+  "version": "1.0.0",
+  "description": "Fin Guide Landingpage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstix/fin-guide-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rstix/fin-guide-landing/issues"
+  },
+  "homepage": "https://github.com/rstix/fin-guide-landing#readme",
+  "dependencies": {
+    "reset-css": "^5.0.2"
+  }
+}
