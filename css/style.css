@@ -1,6 +1,30 @@
-body {
-  background-color: red;
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
-body h1 {
-  font-size: 30px;
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.table {
+  display: grid;
+  gap: 1px;
+}
+.table .table-head-item,
+.table .table-row-item {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.table .table-row,
+.table .table-head {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.table .table-row .table-row-item,
+.table .table-head .table-row-item {
+  width: auto;
 }

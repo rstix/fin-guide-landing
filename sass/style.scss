@@ -1,6 +1,40 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
 body {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
   h1 {
-    font-size: 30px;
+  }
+}
+
+$table-padding: 8px;
+$table-border: 1px solid #ccc;
+
+.table {
+  display: grid;
+
+  gap: 1px;
+
+  .table-head-item,
+  .table-row-item {
+    padding: $table-padding;
+    border: $table-border;
+  }
+
+  .table-row,
+  .table-head {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    .table-row-item {
+      width: auto;
+    }
   }
 }
